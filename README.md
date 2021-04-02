@@ -22,8 +22,6 @@ ziro create app example-app
 
 This will create a Ziro app in the `example-app` directory.
 
-> TODO: The CLI needs to find and replace the placeholder app names with the user provided app name.
-
 ## Contributing
 
 Clone the repo and then run npm link.

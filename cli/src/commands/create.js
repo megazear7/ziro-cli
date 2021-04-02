@@ -16,6 +16,7 @@ export default function(config) {
 const helpMessage = config => `
 Create Commands:
 ${chalk.blue('ziro create app <name>')} :: Create a new Ziro app in the directory <name>
+                          The name should be lowercase with words separated by dashes
 `;
 
 const notFoundMessage = config => `
