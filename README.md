@@ -16,13 +16,13 @@ npm install --global ziro-app
 
 ### Create
 
-> Comming soon...
-
 ```
-ziro create example
+ziro create app example-app
 ```
 
-This will create a Ziro app in the `example` directory.
+This will create a Ziro app in the `example-app` directory.
+
+> TODO: The CLI needs to find and replace the placeholder app names with the user provided app name.
 
 ## Contributing
 
