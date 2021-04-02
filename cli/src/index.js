@@ -1,6 +1,6 @@
-import chalk from 'chalk';
 import versionCommand from './commands/version.js';
 import helpCommand from './commands/help.js';
+import getConfig from './utils/get-config.js';
 
 export default function() {
     const args = process.argv.slice(2);

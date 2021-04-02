@@ -26,4 +26,10 @@ This will create a Ziro app in the `example` directory.
 
 ## Contributing
 
-> Comming soon...
+Clone the repo and then run npm link.
+
+```
+cd ziro-cli
+npm link
+ziro help # This will run from your local.
+```
