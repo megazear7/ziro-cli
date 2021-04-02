@@ -1,13 +1,13 @@
 {
   "name": "ziro-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A cli tool for the ziro projects",
   "main": "cli/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "sba": "bin/sba"
+    "sba": "cli/ziro"
   },
   "keywords": [
     "cli",
