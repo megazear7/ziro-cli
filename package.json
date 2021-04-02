@@ -1,0 +1,23 @@
+{
+  "name": "ziro-cli",
+  "version": "0.0.0",
+  "description": "A cli tool for the ziro projects",
+  "main": "cli/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sba": "bin/sba"
+  },
+  "keywords": [
+    "cli",
+    "web-components",
+    "web-app"
+  ],
+  "author": "Alex Lockhart",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "prompts": "^2.4.1"
+  }
+}
