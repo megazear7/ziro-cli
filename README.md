@@ -1,10 +1,8 @@
 # Ziro CLI
 
-This is a command line tool for using the ziro projects.
+This is a command line tool for using the [Ziro projects](https://ziro.alexlockhart.me).
 
-1. [Ziro App](https://github.com/megazear7/ziro-app)
-1. [Ziro Components](https://github.com/megazear7/ziro-components)
-1. [Ziro State](https://github.com/megazear7/ziro-state)
+[A Ziro Project](https://ziro.alexlockhart.me/)
 
 ## Install
 
