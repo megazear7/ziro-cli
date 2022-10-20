@@ -1,11 +1,12 @@
 {
   "name": "ziro-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A cli tool for the ziro projects",
   "main": "cli/src/index.js",
+  "type": "module",
   "scripts": {
-    "build": "rollup cli/ziro.js --file dist/ziro.js --format esm",
-    "watch": "rollup cli/ziro.js --file dist/ziro.js --format esm --watch"
+    "build": "rollup --config",
+    "watch": "rollup --config --watch"
   },
   "bin": {
     "ziro": "dist/ziro.js"
@@ -15,12 +16,17 @@
     "web-components",
     "web-app"
   ],
-  "type": "module",
   "author": "Alex Lockhart",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.0",
-    "prompts": "^2.4.1",
-    "rollup": "^3.2.3"
+    "prompts": "^2.4.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-replace": "^5.0.0",
+    "rollup": "^3.2.3",
+    "rollup-plugin-hashbang": "^3.0.0"
   }
 }
