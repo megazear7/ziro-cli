@@ -28,6 +28,8 @@ Clone the repo and then run npm link.
 cd ziro-cli
 npm link
 npm run watch
+cd ../../ # Some other directory
+npm link ziro-cli
 ziro help # This will run from your local.
 ```
 
