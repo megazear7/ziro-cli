@@ -1,6 +1,6 @@
 {
   "name": "ziro-cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A cli tool for the ziro projects",
   "main": "cli/src/index.js",
   "type": "module",

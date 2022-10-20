@@ -2057,7 +2057,7 @@ function getConfig(args) {
         quiet: any(args, ARGS_QUIET) ? true : false,
         open: any(args, ARGS_OPEN) ? true : false,
         help: any(args, ARGS_HELP) ? true : false,
-        version: '0.0.9'
+        version: '0.0.10'
     }
 }
 
