@@ -4,10 +4,11 @@
   "description": "A cli tool for the ziro projects",
   "main": "cli/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup cli/ziro.js --file dist/ziro.js --format esm",
+    "watch": "rollup cli/ziro.js --file dist/ziro.js --format esm --watch"
   },
   "bin": {
-    "ziro": "cli/ziro.js"
+    "ziro": "dist/ziro.js"
   },
   "keywords": [
     "cli",
@@ -17,8 +18,9 @@
   "type": "module",
   "author": "Alex Lockhart",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^4.1.0",
-    "prompts": "^2.4.1"
+    "prompts": "^2.4.1",
+    "rollup": "^3.2.3"
   }
 }
